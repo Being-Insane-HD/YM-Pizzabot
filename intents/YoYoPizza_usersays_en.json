@@ -1,0 +1,41 @@
+[
+  {
+    "id": "120c5f03-3913-4585-9d03-320699d83ae0",
+    "data": [
+      {
+        "text": "@type type @size size pizza with @crust crust and @topping toppings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9a05ea5-cfeb-46e6-938f-2ee3586c04e2",
+    "data": [
+      {
+        "text": "I need a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "766bdf47-584f-469b-b0aa-46d4a72d7898",
+    "data": [
+      {
+        "text": "Order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

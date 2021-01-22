@@ -1,0 +1,26 @@
+[
+  {
+    "value": "paneer",
+    "synonyms": [
+      "paneer"
+    ]
+  },
+  {
+    "value": "sausage",
+    "synonyms": [
+      "sausage"
+    ]
+  },
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni"
+    ]
+  }
+]

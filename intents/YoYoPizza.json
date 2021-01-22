@@ -1,0 +1,185 @@
+{
+  "id": "ee06eab6-384a-4cf4-be80-33bec58700fd",
+  "name": "YoYoPizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Order",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6efc443d-c16e-4f51-ac7b-d83958f2160e",
+          "name": "Type",
+          "required": true,
+          "dataType": "@type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of pizza do you want?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "50478850-d631-4438-bd9c-a0a95069f329",
+          "name": "Crust",
+          "required": true,
+          "dataType": "@crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of crust would you have? thin/pan,/cheese"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d5edd1a2-ed2d-4433-bc7f-453be797e03c",
+          "name": "Toppings",
+          "required": true,
+          "dataType": "@topping",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What toppings would you want?  pepperoni/sausage/paneer/cheese"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6d93dcc2-83a6-4b6b-b900-52137d231d89",
+          "name": "Size",
+          "required": true,
+          "dataType": "@size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what should be the size? small/regular/medium/large"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "77041c36-c1bb-4e64-940c-e105b9b889ee",
+          "name": "Amount",
+          "required": true,
+          "dataType": "@amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many do you want? (max 4)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b82ab9b8-ced3-4d4e-af22-973c83a80564",
+          "name": "Name",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Great!! your order will be confirmed. May I have your name please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "14b8aa07-ae41-43ec-8941-00824d49bec7",
+          "name": "Address",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please provide the address required for delivery"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "937357c0-7fff-4525-b601-0b40cd1c9311",
+          "name": "Time",
+          "required": true,
+          "dataType": "@sys.time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "By what time do you want it to be delivered?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks for ordering, your order is confirmed. you\u0027ll now be redirected to payment gateway for payment."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
